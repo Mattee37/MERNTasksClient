@@ -89,6 +89,9 @@ a {
   display: block;
   background-color: transparent;
 }
+.cerrar-sesion {
+  color: var(--blanco);
+}
 
 @media (min-width: 768px) {
   .contenedor-app {
@@ -137,6 +140,7 @@ aside {
 .app-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: var(--gris2);
   padding: 4rem;
 }
@@ -319,7 +323,7 @@ aside {
 
 .enlace-cuenta {
   margin-top: 2rem;
-  display: inline-block;
+  display: block;
   opacity: 0.7;
 }
 
@@ -344,6 +348,7 @@ aside {
     left: auto;
   }
 }
+
 .alerta-ok {
   background-color: rgb(109, 211, 109);
   color: rgb(2, 103, 2);
